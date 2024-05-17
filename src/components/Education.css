@@ -1,0 +1,35 @@
+.images-educ img {
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Add transition effect for smooth animation */
+  }
+  
+  .images-educ img:hover {
+    transform: scale(1.1); /* Increase the size of the image on hover */
+  }
+  
+  
+  .images-educ {
+    display: flex;
+    bottom: -190%;
+    position: absolute;
+  }
+  
+  .image-container {
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    display: block;
+  }
+  
+  .image-container > div {
+    margin-top: 10px;
+  }
+  
+  .educ-text {
+    color: #FF6B00;
+  }
+  
+  .educ-description {
+    color: white;
+  }
